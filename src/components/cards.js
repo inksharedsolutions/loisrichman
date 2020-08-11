@@ -15,9 +15,9 @@ const Cards = ()=>{
                     <div className="grid-layouts">
                         <Card
                             hoverable
-                            style={{ width: 400 }}
-                        >
-                            <Meta 
+                            style={{ width: 400 }}>
+
+                            <Meta
                                 title="The Bible Is God's Instruction Book"  
                                 description={<Markup content={`
                                     <span class="span-tag">Psalm 25:4 show me thy ways, o Lord: teach me thy paths.</span>
@@ -46,7 +46,9 @@ const Cards = ()=>{
                                         <span class="span-tag">God can set you up on the road to happiness, health and freedom.</span>
                                         <span class="span-tag">Jesus said, "If thou canst believe, all things are possible to him (her) that believeth." (mark 9:23)</span>
                                     </p>
-                                `} />}/>
+                                `} />}
+                            />
+                            
                         </Card>
 
                         <Card

@@ -5,3 +5,60 @@
 	    margin: 4% auto;
 	}	
 }
+
+.grid-parent-blog{
+
+	display: grid;
+    grid-template-columns: 15% 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+
+    /*bgs*/
+    background: #ffffff;
+    padding: 4%;
+    box-shadow: 1px 1px 33px 2px #eee;
+
+
+    .blog-link{
+    	text-align: right;
+    	a{
+    		font-weight: 900;
+    		text-transform: uppercase;
+    	}
+    }
+    .blog-num{
+	    font-size: 4rem;
+	    font-weight: 700;
+	    text-align: center;
+	    margin-top: 25px;
+    }
+
+    .blog-body{
+    	h1{
+    		font-size: 2rem;
+
+    		&:after{
+    			content: '';
+			    display: block;
+			    background: #f4f4f4;
+			    position: absolute;
+			    width: 60%;
+			    height: 1px;
+			    margin: 12px 0;
+    		}
+    	}
+
+    	.blog-date{
+    		font-size: 11px;
+		    text-transform: uppercase;
+		    font-weight: 100;
+		    letter-spacing: 3px;
+		    color: #f4954e;
+    	}
+    }
+
+
+}
+
+

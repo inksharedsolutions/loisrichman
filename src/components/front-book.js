@@ -7,11 +7,7 @@ const MidBook = (props)=>{
         <>    
             <section className="upper-main">
                 <div className="container-gt separator-line">
-
                     <div className="grid-two-columns" id="wrapper-two-books">
-
-                
-
                         <div className="content-wraps">
 
                             <span className="italic-tag">Read, listen, and learn in various formats</span>
