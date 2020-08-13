@@ -79,7 +79,6 @@
     grid-template-columns: 15% 1fr;
 }
 
-
 /*Modification*/
 .banner-text{
     line-height: 1;
@@ -99,6 +98,7 @@
             }
         }
     }
+
     p{
         margin: 0 !important;
         position: relative;
@@ -108,12 +108,8 @@
         letter-spacing: 20px;
         font-weight: bold;
         font-size: 2em;
+        opacity: .8;
     }
-
-    // span{
-    //     font-family: "augusta-free";
-    //     font-size: 5em;
-    // }
 
     .first-title{
         font-family: "augusta-free";

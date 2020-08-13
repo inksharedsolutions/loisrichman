@@ -32,7 +32,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/logo/head_logo.png`, // This path is relative to the root of the site.
+        icon: `static/logo/head_logo.png`,
       },
     },
     {
@@ -42,12 +42,7 @@ module.exports = {
         name: `markdown-pages`,
       },
     },
-    {
-      "resolve": `gatsby-transformer-remark`,
-      "options": {
-        "excerpt_separator": `<!-- endexcerpt -->`
-      }
-    },
+    `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
@@ -56,8 +51,6 @@ module.exports = {
         }
       }
     }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+
   ],
 }

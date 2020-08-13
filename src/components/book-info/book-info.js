@@ -14,22 +14,22 @@ const BookInfo = (props)=>{
                 </div>
                 
                 <div className="column" id={props.data.id}>
-
                     <section className="contentBook">
-
-                        <h1>{props.data.title}</h1>
+                        <h1>
+                            {props.data.title}
+                        </h1>
 
                         <p className="sub-heading">
                             {props.data.spanFirst}
                         </p>
                         
-                        <span>{props.data.spanTitle}</span> 
+                        <span>
+                            {props.data.spanTitle}
+                        </span> 
 
                         <div className="content-body" 
                              dangerouslySetInnerHTML={{__html: `${props.data.content}`}} />
-
                     </section>
-
 
                     <BookLink
                         data={{
@@ -43,9 +43,7 @@ const BookInfo = (props)=>{
                                 barnes:'https://www.barnesandnoble.com/w/the-ultimate-victory-penny-mccoy/1134150168?ean=9781643457680',
                                 booksamillion:'https://www.booksamillion.com/p/Ultimate-Victory/Penny-McCoy/9781643457680?id=7954811514842',
                             },
-                            
                             reviews:{},
-
                             isNonfront:true,
                         }}
                     />
