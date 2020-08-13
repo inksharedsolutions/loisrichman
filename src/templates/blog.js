@@ -17,18 +17,26 @@ export const query = graphql`
 	}
 `
 
-const Blog = () =>{
+const Blog = (props) =>{
     return(
         <>
             <Layout>
+                <Nav pathExt={props.path} />
                 <Banner/>
                 
                 <section className="section-single-blog-post">
-                	
-                	<h1>
-                		{props.data.markdownRemark.frontmatter.title}
-                	</h1>
-                	
+                	<div className="container">
+                    	<h1>
+                    		{props.data.markdownRemark.frontmatter.title}
+                    	</h1>
+                        <p className="single-post-date">
+                            {props.data.markdownRemark.frontmatter.date}
+                        </p>
+
+                        <div className="">
+
+                        </div>
+                	</div>
                 </section>
 
             </Layout>
