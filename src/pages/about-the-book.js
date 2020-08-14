@@ -92,8 +92,8 @@ const ATB = (props)=>{
                                             amazon:'https://www.amazon.com/Key-West-Interlude-Lois-Richman/dp/1643454633/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=%26amp%3B%2334%3B',
                                             barnes:'https://www.barnesandnoble.com/w/key-west-interlude-lois-richman/1131275986?ean=9781643454634',
                                             booksamillion:'https://www.booksamillion.com/p/Key-West-Interlude/Lois-Richman/9781643454641?id=7714171848832',
-                                        }
                                     }
+                                    
                                 }} 
                             />
 
