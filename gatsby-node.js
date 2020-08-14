@@ -36,16 +36,15 @@ module.exports.createPages = async({graphql, actions}) =>{
 		query{
 			allMarkdownRemark{
 			    edges{
-			      node{
-
-			        fields {
-			          	slug
-			        }
-			   
+			      	node{
+				        fields {
+				          slug
+				       }
 			       }
 			    }
 			}
 		}
+		
 	`)
 
 	res.data.allMarkdownRemark.edges.forEach((edge)=>{

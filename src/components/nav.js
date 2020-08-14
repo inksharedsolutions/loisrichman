@@ -14,6 +14,7 @@ const Nav = (props) =>{
 		 'Contact'
 	]
 
+	
 	let Listed = pages.map((e) =>{
  		
 		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
@@ -27,7 +28,6 @@ const Nav = (props) =>{
 				</Link>	
 			</li>
 		)
-		
 	})
 
 	const clickEvent = (e)=> {
@@ -36,7 +36,7 @@ const Nav = (props) =>{
 			
     return(		
         <>
-			<nav className="navigation">
+			<nav className={`navigation ${props.blogNav ? 'blog-nav-prio' : ''}`}>
 				<li>
 					<Link to="/blog">
 						Blog

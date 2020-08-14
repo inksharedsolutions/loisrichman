@@ -20,10 +20,15 @@
     box-shadow: 1px 1px 33px 2px #eee;
 
     .blog-link{
-    	text-align: right;
+
+        text-align: left;
+        margin-top: 30px;
+        
     	a{
-    		font-weight: 900;
-    		text-transform: uppercase;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-decoration: underline;
+            color: #03A9F4 !important;
     	}
     }
     
@@ -57,4 +62,77 @@
 		    color: #f4954e;	
     	}
     }
+}
+
+
+/*
+====================
+    Single Post
+====================
+*/
+
+.single-heading-title-post{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.two-blog-grid{
+    display: grid;
+    grid-template-columns: 11% 1fr;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.single-post-thumbnail{
+    img{
+        border-radius: 50%;
+        width: 50%;
+    }
+}
+
+.author-name-single-post{
+    a{
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #d59c1c !important;
+    }
+}
+
+.single-post-thumbnail{
+    text-align: center;
+}
+
+.single-post-date{
+    display: block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.commentSection{
+    margin: 7% 0;
+}
+
+.section-single-blog-post{
+    padding: 12% 0;
+}
+
+.blog-nav-prio{
+    background: #141414;
+}
+
+.grid-content-post{
+    display: block;
+    width: 700px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.published-on{
+    font-size: 12px;
+    margin-right: 14px;
+    font-style: italic;
 }

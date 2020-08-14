@@ -21,7 +21,9 @@ const ATB = (props)=>{
 	return (
 		<>
 		 	<Layout>
-		 		<Nav pathExt={props.path}/>
+		 		<Nav pathExt={props.path} 
+                     blogNav={true}
+                />
                  
 		 		<Banner
                     spanFirst={`About The`}
