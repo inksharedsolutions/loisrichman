@@ -268,6 +268,7 @@
 @media screen and (max-width: 650px){
 
     .grid-parent-blog{
+
         grid-template-columns: auto !important;
         .blog-num{
             font-size: 2rem;
@@ -276,13 +277,16 @@
         .blog-link{
             // text-align: center;
         }
+
+        h1{
+            font-size: 1.2rem;
+        }
     }
+
 
     #blog-body-content-list{
         padding: 0 10%;
     }
-
-
 
     .grid-template-four-col{
         grid-template-columns: 1fr 1fr;
