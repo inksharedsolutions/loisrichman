@@ -36,7 +36,7 @@ const BlogPage = (props)=>{
         <>
             <Layout>
                 <Nav pathExt={props.path}/>
-                <Banner   
+                <Banner
                     spanFirst={``}
                     contextHeading={`Blog`}
                 />
