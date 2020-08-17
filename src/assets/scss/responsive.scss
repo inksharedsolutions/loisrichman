@@ -267,6 +267,19 @@
 
 @media screen and (max-width: 650px){
 
+    .grid-parent-blog{
+        grid-template-columns: auto !important;
+        .blog-num{
+            font-size: 2rem;
+        }
+
+        .blog-link{
+            text-align: center;
+        }
+    }
+
+
+
     .grid-template-four-col{
         grid-template-columns: 1fr 1fr;
     }
