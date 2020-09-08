@@ -14,7 +14,6 @@ const Nav = (props) =>{
 		 'Contact'
 	]
 
-	
 	let Listed = pages.map((e) =>{
  		
 		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
@@ -85,7 +84,6 @@ const Nav = (props) =>{
 							className="logo-img"
 							src={Logo}
 						/>
-						
 					</Link>
 				</h1>
 				<h1></h1>
@@ -110,11 +108,8 @@ const Nav = (props) =>{
 						<p class="list-label">
 							Navigations.
 						</p>
-						
 						{ Listed }
-
 					</ul>
-
 				</section>
 			</nav>
         </>			
