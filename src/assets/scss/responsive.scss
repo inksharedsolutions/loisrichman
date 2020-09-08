@@ -51,8 +51,10 @@
     }
 
     .burger-nav{
-        display: flex !important;
+        display: flex!important;
         justify-content: space-between;
+        padding: 1% 7%;
+        background: #404040;
     }
 
     .grid-layouts{
@@ -66,7 +68,7 @@
 
     .hamburger-ul{
         padding: 14px 10px;
-        background: #ffc5947a;
+        background: #FF9800;
         border-radius: 50px;
     }
 
@@ -547,7 +549,6 @@
             height: auto;
         }
     }
-
 
     // .f-letter-elem{
     //     font-size: 2.5em;
