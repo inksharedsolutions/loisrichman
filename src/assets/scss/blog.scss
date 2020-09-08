@@ -8,11 +8,14 @@
 
 .grid-parent-blog{
 
-	display: grid;
+    display: grid;
     grid-template-columns: 15% 1fr;
     justify-content: center;
     align-items: center;
     margin-bottom: 7%;
+    background: #e6e6e6 !important;
+    padding: 4%;
+    box-shadow: 1px 1px 33px 2px #eee;
 
     /*bgs*/
     background: #ffffff;
@@ -20,10 +23,9 @@
     box-shadow: 1px 1px 33px 2px #eee;
 
     .blog-link{
-
         text-align: left;
         margin-top: 30px;
-        
+         
     	a{
             font-weight: 900;
             text-transform: uppercase;

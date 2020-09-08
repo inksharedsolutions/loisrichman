@@ -1,13 +1,12 @@
 ---
   title: "Comments About: Netlflix and the release of ‘HOLLYWOOD’"
-  date : "August 14, 2020"
+  date : "September 4, 2020"
   author : "Lois Richman"
 ---
 
-
 I waited with great anticipation and was very excited to view HOLLYWOOD. A great single subject encasing many successful and working actors as characters were in the film. There is also a great script, (In my opinion, Patti LaBelle steals all her scenes: A powerful presence throughout.)
 
-The first week HOLLYWOOD was Number 2 in the ratings on Netflix, and RIGHT AFTER THAT, boom, down to fitting into alphabetical order. 
+The first week HOLLYWOOD was Number 2 in the ratings on Netflix, and RIGHT AFTER THAT, boom, down to fitting into alphabetical order.
 
 
 ####WHY? 
@@ -30,7 +29,6 @@ Tired, no doubt, of the interview process, he agreed to an interview anyway. My 
 
 
 Before I went on the interview, I asked an old-time columnist friend of mine (Fredda Dudley Balling), (who ghosted the first advice column for Claudette Colbert) –before Dear Abby—I asked Fredda why the general public was not aware of Hudson’s preferences during the time of his popularity. (If this happened in today’s market, you know it would be splashed everywhere, as reporters and newspapers live on salaciousness). Fredda said “He was such a dear man. We all loved him anyway. So we chose to give him his privacy. Besides, how many tickets could the studios sell if the truth be told?”
-
 
 
 Have you read “Wanted: First Mate”? It is still available on Amazon. Way too expensive however. Many libraries still have “Wanted” on their shelves. If not, have your library write to: Lake Worth Public Library, 15 No. M Street, Lake Worth, Fla., 33460. Vickie Joslin will be more than happy to forward a copy to your library.

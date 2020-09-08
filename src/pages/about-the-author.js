@@ -9,7 +9,6 @@ const ATB = (props)=>{
 	return (
 		<> 
 		 	<Layout>
-                 
 		 		<Nav pathExt={props.path}/>
                  <Banner 
                  spanFirst={`About The`} 
@@ -25,8 +24,8 @@ const ATB = (props)=>{
 
                             <div className="heading-quote">
                                 <h4>
-                                    In order for your faith to work, you have to walk in Love. 
-                                    IF YOU FOLLOW THESE 10 GUIDELINES, you’ll 
+                                    In order for your faith to work, you have to walk in Love.
+                                    IF YOU FOLLOW THESE 10 GUIDELINES, you’ll
                                     receive more answers to your prayers, receive more
                                     money, receive your healing, receive more love,
                                     receive more power, receive more faith, and receive more
