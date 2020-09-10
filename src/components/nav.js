@@ -38,7 +38,7 @@ const Nav = (props) =>{
 			<nav className={`navigation ${props.blogNav ? 'blog-nav-prio' : ''}`}>
 				<li>
 					<Link to="/blog">
-						Blog
+						Blogs
 					</Link>
 				</li>
 
