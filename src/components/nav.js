@@ -98,7 +98,6 @@ const Nav = (props) =>{
 				</ul>
 
 				<section className={toggled ? 'active-nav': 'non-active-nav'}>
-
 					<span className="close-mark" onClick={e => clickEvent(e)}>
 						<span className="hamburger-x-mark"></span>
 						<span className="hamburger-x-mark"></span>
