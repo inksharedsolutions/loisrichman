@@ -26,8 +26,8 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/logo/head_logo.png`,
-      },
+        icon: `static/logo/main_logo.svg`,
+      }, 
     },
     {
       resolve: `gatsby-source-filesystem`,
