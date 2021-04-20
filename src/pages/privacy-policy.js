@@ -6,6 +6,7 @@ import Parser from 'html-react-parser';
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
+import { Helmet } from 'react-helmet';
 
 const Pp = (props) =>{
 
@@ -27,7 +28,7 @@ const Pp = (props) =>{
 	return(
 		<>
 		 	<Layout>
-
+				<Helmet title="Privacy Policy | Lois Richman"/>
 			 	<Nav pathExt={props.path}/>
 
                 <Banner 
