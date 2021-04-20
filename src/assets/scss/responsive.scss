@@ -28,6 +28,15 @@
     body{
         font-size: 18px;
     }
+
+    .banner-contents{
+        .second-title{
+            background-size: cover;
+        }
+        h1{
+            font-size: 8em !important;
+        }
+    }
 }
 
 @media screen and ( max-width : 990px){
@@ -83,9 +92,9 @@
         }
     }
     
-    .navigation{
-        display: none;
-    }
+    // .navigation{
+    //     display: none;
+    // }
 
     .logo-img{
         width: 60px;
@@ -225,13 +234,13 @@
         display: none;
     }
 
-    .banner-img{
-        img{
-            display: none;
-        }
-    }
+    // .banner-img{
+    //     img{
+    //         display: none;
+    //     }
+    // }
 
-    .banner-img,
+    // .banner-img,
     .book-wraps
     {
         
@@ -269,6 +278,19 @@
         }
     
     }
+
+    /* added */
+    .banner-contents{
+        .first-title{
+            font-size: 3em;
+        }
+        .second-title{
+
+            h1{
+                font-size: 4em;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 650px){
@@ -276,12 +298,13 @@
     .grid-parent-blog{
 
         grid-template-columns: auto !important;
+        text-align: center;
         .blog-num{
             font-size: 2rem;
         }
 
         .blog-link{
-            // text-align: center;
+            text-align: center;
         }
 
         h1{
@@ -499,11 +522,23 @@
         }
     }
 
-    .banner-text{
-        h1{
-            margin: 10% 0;
+    .banner-contents{
+        height: 90vh !important;
+
+        .first-title{
+            font-size: 2.5em !important;
         }
+        .second-title{
+            background-size: contain !important;
+
+            h1{
+                font-size: 1.8em !important;
+            }
+        }
+        
     }
+
+
 }
 
 @media screen and (max-width: 450px){
@@ -559,6 +594,19 @@
         input[name="email"]{
             width: 100%;
         }
-    } 
+    }
+
+    .banner-contents{
+        .first-title{
+            font-size: 1.5em !important;
+        }
+        h1{
+            font-size: 1em !important;
+            letter-spacing: 0.3em !important;
+        }
+        p{
+            font-size: 0.8em !important;
+        }
+    }
 
 }

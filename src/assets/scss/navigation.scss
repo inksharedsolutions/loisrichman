@@ -7,7 +7,7 @@
                 text-decoration: none;
                 margin: 0 14px;
                 font-size: 1em;
-                color: #ffffff6b !important;
+                color: #ffe0cd !important;
                 text-transform: uppercase;
                 font-weight: 800;
             }
@@ -18,24 +18,24 @@
         display: none;
     }
 
-    [aria-current="page"]{
-        border-bottom: 4px solid #ff5b5b;
-        color: #ff5b5b !important;
+    [aria-current=page]{
+        border-bottom: 4px solid #e0482f;
+        color: #ffffff !important;
     }
 
 }
 
 .navigation{
 
-    min-height: 100px;
+    min-height: 10vh;
     width: 100%;
-    padding: 0 5%;
+    padding: 0 15%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     z-index: 999;
     position: absolute;
-    background: #ffffff1f;
+    // background: #ffffff1f;
 
     h1{
         a{
@@ -54,7 +54,7 @@
             font-size: 15px;
             text-transform: uppercase;
             font-weight: 900;
-            [aria-current="page"]{
+            [aria-current=page]{
                 color: #fff !important;
             }
         }        
@@ -102,7 +102,7 @@
     li{
         list-style-type: none;
         font-size: 2em;
-        padding: 17px 0;
+        padding: 10px 0;
         font-weight: bold;
 
 
@@ -166,7 +166,7 @@
 }
 
 .logo-img{
-    width: 207px;
+    width: 125px;
     max-width: 100%;
     border-radius: 11px;
 } 

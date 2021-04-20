@@ -1,10 +1,10 @@
 import React from 'react'
-import { Collapse, Select } from 'antd'
-import { SettingOutlined, PlusOutlined,MinusOutlined } from '@ant-design/icons'
+import { Collapse} from 'antd'
+import { PlusOutlined,MinusOutlined } from '@ant-design/icons'
 import BookLink from '../components/book-link/book-link'
 import { Link } from 'gatsby'
 const { Panel } = Collapse
-const { Option } = Select
+// const { Option } = Select
 
 
 const text = `

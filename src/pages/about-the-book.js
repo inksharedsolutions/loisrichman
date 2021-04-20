@@ -5,7 +5,8 @@ import Banner from '../components/non-front-banner'
 import BookInfo from '../components/book-info/book-info'
 import { DiscussionEmbed } from "disqus-react"
 import FrontBook from '../../static/books/book_01.png'
-import SecondBook from '../../static/books/book_02.png'
+import { Helmet } from 'react-helmet'
+// import SecondBook from '../../static/books/book_02.png'
 
 const ATB = (props)=>{
 
@@ -21,9 +22,8 @@ const ATB = (props)=>{
 	return (
 		<>
 		 	<Layout>
-		 		<Nav pathExt={props.path} 
-                     blogNav={true}
-                />
+                <Helmet title="Book | Lois Richman" />
+		 		<Nav pathExt={props.path} />
                  
 		 		<Banner
                     spanFirst={`About The`}

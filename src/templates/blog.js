@@ -1,7 +1,7 @@
 import React from 'react'
-import {graphql, useStaticQuery, Link } from 'gatsby'
+import {graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
-import Banner from '../components/banner'
+// import Banner from '../components/banner'
 import Nav from '../components/nav'
 import Thumbnail from '../../static/thumbnail/main_author_thumbnail.png'
 import { DiscussionEmbed } from "disqus-react"
