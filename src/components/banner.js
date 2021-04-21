@@ -2,6 +2,7 @@ import { animated, useSpring } from 'react-spring';
 import React, {useState, useEffect, useRef} from 'react'
 // import {Link} from 'gatsby'
 import  ImgBanner from '../../static/banner/main_banner.png'
+import  ImgBanner1 from '../../static/banner/replica.png'
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];
 const trans1 = (x, y) => `translate3d(${x / 10}px, ${y / 10}px, 0)`;
@@ -25,18 +26,19 @@ const Banner = ()=>{
                         {/* <div className="banner-contents"> */}
 
                             <div className="banner-contents" 
-                                onMouseMove={({clientX: x, clientY: y}) => set({xy: calc(x, y)})} >
+                                onMouseMove={({clientX: x, clientY: y}) => set({xy: calc(x, y)}) } >
                                 
-
+                                
                                 <animated.div 
-                                    style={{transform: props.xy.to(trans1)}} 
+                                    style={{transform:props.xy.to(trans1)}} 
                                     className="first-title" >
                                         <span>Keywest</span>
                                 </animated.div>
-                                <animated.div 
-                                    style={{transform: props.xy.to(trans2)}}
-                                    className="second-title">
-                                        <animated.div style={{transform: props.xy.to(trans3)}}>
+                                <div className="second-title">
+                                        <animated.div className="replica" style={{transform:props.xy.to(trans3)}}>
+                                            <img src={ImgBanner} />
+                                        </animated.div>
+                                        <animated.div style={{transform: props.xy.to(trans2)}}>
                                         <h1>
                                             <span>I</span>
                                             <span>n</span>
@@ -49,8 +51,10 @@ const Banner = ()=>{
                                             <span>e</span>
                                         </h1>
                                         </animated.div>
-                                        <p>You Now</p>
-                                </animated.div>
+                                        <animated.div className="replica" style={{transform:props.xy.to(trans3)}}>
+                                            <img src={ImgBanner1} />
+                                        </animated.div>
+                                </div>
                                 
                             </div>  
                             

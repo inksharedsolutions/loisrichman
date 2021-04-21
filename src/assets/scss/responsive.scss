@@ -29,12 +29,22 @@
         font-size: 18px;
     }
 
+    // .banner-contents{
+    //     .second-title{
+    //         background-size: cover;
+    //     }
+    //     h1{
+    //         font-size: 8em !important;
+    //     }
+    // }
+}
+
+@media screen and ( max-width : 1201px ) and (min-width: 991px){
+
+    /*Added*/
     .banner-contents{
-        .second-title{
-            background-size: cover;
-        }
         h1{
-            font-size: 8em !important;
+            font-size: 6.5em !important;
         }
     }
 }
@@ -530,7 +540,7 @@
         }
         .second-title{
             background-size: contain !important;
-
+            
             h1{
                 font-size: 1.8em !important;
             }

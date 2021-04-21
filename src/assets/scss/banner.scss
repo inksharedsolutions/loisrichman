@@ -124,15 +124,15 @@
     background-size: cover;
 
     .banner-contents{
-        max-width: 1000px;
-        margin: 0 auto;
+        // max-width: 1000px;
+        margin: auto 0;
         height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        line-height: 2.5;
+        line-height: 2.7;
 
         .first-title{
             font-family: 'Permanent Marker', cursive;
@@ -141,29 +141,32 @@
         }
 
         .second-title{
-            background-image: url(../../../static/banner/main_banner.png);
-            background-repeat: no-repeat;
-            background-position: center top;
-            background-size: 70%;
+            position: relative;
+
+            .replica{
+                position: absolute;
+                top: 0;
+                width: 100%;
+
+                img{
+                    width: 70%;
+                }
+            }
         }
 
         h1{
             color: #000 !important;
             text-transform: uppercase;
-            font-size: 10em;
+            font-size: 12em;
             font-weight: 900;
             letter-spacing: 2rem;
-        }
 
-        p{
-            text-transform: uppercase;
-            font-size: 2em;
-            font-weight: bold;
-            color: #fbc168;
-            margin: 0 !important;
-            letter-spacing: 20px;
-            opacity: .8;
-            line-height: 0;
+            span{
+                &:nth-child(4), &:nth-child(7){
+                    position: relative;
+                    z-index: 999;
+                }
+            }
         }
     }
 }
