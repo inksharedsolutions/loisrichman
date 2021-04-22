@@ -292,13 +292,10 @@
     /* added */
     .banner-contents{
         .first-title{
-            font-size: 3em;
+            font-size: 2.5em;
         }
-        .second-title{
-
-            h1{
-                font-size: 4em;
-            }
+        .second-title h1{
+            font-size: 3.4em;
         }
     }
 }
@@ -481,6 +478,18 @@
         display: block !important;
         margin: 14px auto !important;
     }
+    .banner-contents{
+        height: 90vh !important;
+
+        .first-title{
+            font-size: 2.5em !important;
+        }
+        .second-title h1{
+            font-size: 3em !important;
+            letter-spacing: 1.5rem;
+        }
+        
+    }
 }
 
 @media screen and (max-width: 550px){
@@ -538,12 +547,9 @@
         .first-title{
             font-size: 2.5em !important;
         }
-        .second-title{
-            background-size: contain !important;
-            
-            h1{
-                font-size: 1.8em !important;
-            }
+        .second-title h1{
+            font-size: 2.8em !important;
+            letter-spacing: 1rem;
         }
         
     }
@@ -610,13 +616,18 @@
         .first-title{
             font-size: 1.5em !important;
         }
-        h1{
-            font-size: 1em !important;
-            letter-spacing: 0.3em !important;
-        }
-        p{
-            font-size: 0.8em !important;
+        .second-title h1{
+            font-size: 1.8em !important;
+            letter-spacing: 1rem;
         }
     }
 
+}
+
+@media screen and (max-width: 320px){
+    .banner-contents{
+        .second-title h1{
+            font-size: 1.3em !important;
+        }
+    }
 }
